@@ -8,3 +8,4 @@ This folder contains the React/Next.js UI for the PDF Q&A Chatbot.
 cd frontend
 npm install
 npm run dev
+```
