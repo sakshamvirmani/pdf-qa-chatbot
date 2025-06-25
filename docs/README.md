@@ -14,6 +14,7 @@
 - Embeddings stored in memory (or vector store)
 - Question asked → top-k chunks fetched → answer generated via prompt
 - Answers + questions logged in Firestore
+```
 
 ## Prompt Template
 

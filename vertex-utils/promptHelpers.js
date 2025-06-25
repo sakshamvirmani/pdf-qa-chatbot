@@ -1,8 +1,7 @@
 // vertex-utils/promptHelpers.js
 
 function buildPrompt(question, contextChunk) {
-  return `
-You are a helpful assistant. Use the context below to answer the question.
+  return `You are a helpful assistant. Use the context below to answer the question.
 
 Context:
 ${contextChunk}
@@ -10,8 +9,7 @@ ${contextChunk}
 Question:
 ${question}
 
-Answer:
-`;
+Answer:`;
 }
 
 module.exports = { buildPrompt };
