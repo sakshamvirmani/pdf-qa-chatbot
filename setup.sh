@@ -22,10 +22,10 @@ npm install firebase-functions firebase-admin
 touch index.js
 cd ..
 
-# 3. Setup vertex-utils
-echo "➡️ Setting up Vertex AI utils..."
-mkdir -p vertex-utils
-touch vertex-utils/promptHelpers.js
+# 3. Setup gemini-utils
+echo "➡️ Setting up Gemini utils..."
+mkdir -p gemini-utils
+touch gemini-utils/geminiHelpers.js
 
 # 4. Setup Firestore and Storage logic
 mkdir -p firestore storage
